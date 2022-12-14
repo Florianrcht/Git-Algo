@@ -1,0 +1,17 @@
+Algorithme tri par insertion:
+
+ debut algorithme de la methode de  tri par insertion (params:liste)
+        i est egale a 1
+        tant que i est egale ou inferieur à longueur de la liste - 1
+
+            # mémoriser liste[i] dans x
+            x sauvegarde la valeur de liste[i]                            
+
+            # décaler les éléments liste[0]..liste[i-1] qui sont plus grands que x, en partant de liste[i-1]
+            j prend la valeur de i                               
+            tant que j est superieur à 0 et liste[j - 1] supérieur à x
+                    liste[j] prend la valeur de  liste[j - 1]
+                    j prend la valeur de j - 1
+                    fin de tant que
+            # placer x dans l'espace laissé par le décalage
+            liste[j] prend la valeur de x                            
