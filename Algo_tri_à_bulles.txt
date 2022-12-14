@@ -1,29 +1,13 @@
-Parametre = 300
-a=0
-b=1
-c=0
+Nmb =[] <-- 4, 7, 19, 8
 
-Affiche a
-Affiche b
+Pour i variant de longueur Nmb[] de -1 vers 0 à -1
 
-fibonachi(a,b,c):
-	c=a+b	
-	affiche c
-	a=b
-	
+	Pour step variant de 0 vers i
 
-Tant que c est inférieur à paramètre
-	fibonachi(a,b,c)
-Fin
+		Si Nmb[step+1] est inférieur à Nmb[step]
 
+			conteneur = nmb[step+1]
 
+			Nmb[step+1] = Nmb[step]
 
-
-
-Debut fibo (a, b, fin)
-	Si b < fin
-	afficher a
-	fibo (b, a+b, fin)
-	Fin si
-Fin fibo
-Fibo (0, 1, 300)
+			Nmb[step] = conteneur
