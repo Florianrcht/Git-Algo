@@ -4,7 +4,7 @@ Pour i variant de longueur Nmb[] de -1 vers 0 à -1
 
 	Pour step variant de 0 vers i
 
-		Si Nmb[step+1] est inférieur à Nmb[step]
+		Si Nmb[step+1] > à Nmb[step]
 
 			conteneur = nmb[step+1]
 
