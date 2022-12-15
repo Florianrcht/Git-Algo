@@ -1,0 +1,13 @@
+Nmb =[] <-- 4, 7, 19, 8
+
+Pour i variant de longueur Nmb[] de -1 vers 0 à -1
+
+	Pour step variant de 0 vers i
+
+		Si Nmb[step+1] > à Nmb[step]
+
+			conteneur = nmb[step+1]
+
+			Nmb[step+1] = Nmb[step]
+
+			Nmb[step] = conteneur
