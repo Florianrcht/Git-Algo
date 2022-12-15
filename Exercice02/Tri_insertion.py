@@ -9,6 +9,9 @@ def tri_insertion(tableau):
         #on insère l'élément à sa place
         tableau[j]=en_cours
     print(tableau)
-tableau1=[8,4,0,3]
+    
+
+tableau1=[10,9,8,7,6,5,4,3,2,1]
 tri_insertion(tableau1)
+
 

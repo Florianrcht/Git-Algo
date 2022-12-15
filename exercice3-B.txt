@@ -1,0 +1,15 @@
+tri par bulles normales:
+meilleur cas 0
+pire cas 45
+
+tri par bulles optimisé:
+meilleur cas 0
+pire cas 45
+
+tri par insertion:
+meilleur cas 0
+pire cas 45
+
+tri par sélection:
+meilleur cas 0
+pire cas 25
