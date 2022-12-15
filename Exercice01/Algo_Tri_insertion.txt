@@ -1,6 +1,13 @@
 Algorithme tri par insertion:
 
-PROCEDURE tri_Insertion ( Tableau a[1:n])
-    POUR i VARIANT DE 2 A n FAIRE
-        INSERER a[i] à sa place dans a[1:i-1];
-FIN PROCEDURE;
+Début d'algorithme(function) tri_Insertion ( Tableau)
+    POUR i VARIANT DE 1 à la longueur du tableau
+        variable en_cours prend la valeur de tableau[i]
+        variable j prend la valeur de i
+        Tant que j est supérieur à 0 et que tableau[j-1] est supérieur à la variable en_cours
+            tableau[j] prend la valeur de tableau[j-1]
+            j prend la valeur j-1
+        tableau[j] prend la valeur de la variable en_cours
+    on affiche ensuite le tableau une fois la boucle Pour fini
+Fin d'algorithme;
+#on appel la function tri_Insertion plus tard avec un tableau donné pour qu'il soit remis dans le bon ordre croissant comme demandé
