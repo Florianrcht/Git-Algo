@@ -7,8 +7,8 @@ meilleur cas 0
 pire cas 45
 
 tri par insertion:
-meilleur cas 0
-pire cas 45
+meilleur cas 9
+pire cas 54
 
 tri par sélection:
 meilleur cas 0
