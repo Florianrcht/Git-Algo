@@ -13,3 +13,4 @@ tableau1=[8,4,0,3]
 tri_insertion(tableau1)
 
 
+
