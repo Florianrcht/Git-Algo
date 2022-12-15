@@ -4,7 +4,9 @@ tableau1 = []
 
 for i in range (10):
     ff = random.randint(0,100)
-    tableau1.append(i)
+    tableau1.append(ff)#Aleatoire
+    #tableau1.sort()#Meilleurs cas
+    tableau1.sort(reverse=True)#Pire cas
 
 
 def tri_insertion(tableau):

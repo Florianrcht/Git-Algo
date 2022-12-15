@@ -4,7 +4,9 @@ Nmb = []
 
 for i in range (10):
     ff = random.randint(0,100)
-    Nmb.append(i)
+    Nmb.append(ff)#Aleatoire
+    #Nmb.sort()#Meilleurs cas
+    Nmb.sort(reverse=True)#Pire cas
 
 
 longueur = len(Nmb)
@@ -24,4 +26,5 @@ for i in range(longueur - 1):
 
 
 print(Nmb, comparaison, echange)
+
 

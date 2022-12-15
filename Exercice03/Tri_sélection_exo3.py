@@ -4,7 +4,9 @@ t = []
 
 for i in range (10):
     ff = random.randint(0,100)
-    t.append(i)
+    t.append(ff)#Aleatoire
+    #t.sort()#Meilleurs cas
+    t.sort(reverse=True)#Pire cas
 
 def tri_selection(t, comparaison, echange):
     nb = len(t)

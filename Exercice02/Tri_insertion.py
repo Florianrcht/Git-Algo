@@ -1,30 +1,14 @@
-import random
-
-tableau1 = []
-
-for i in range (10):
-    ff = random.randint(0,100)
-    tableau1.append(i)
-
-
 def tri_insertion(tableau):
-    comparaison = 0
-    echange = 0
     for i in range(1,len(tableau)):
         en_cours = tableau[i]
         j = i
-        echange += 2
-
-        comparaison+=2
+        #décalage des éléments du tableau }
         while j>0 and tableau[j-1]>en_cours:
             tableau[j]=tableau[j-1]
             j = j-1
-            echange += 2
+        #on insère l'élément à sa place
         tableau[j]=en_cours
-        echange+=1
-
-    print(tableau,comparaison, echange)
-
-
+    print(tableau)
+tableau1=[8,4,0,3]
 tri_insertion(tableau1)
 
