@@ -11,3 +11,4 @@ Pour i variant de longueur Nmb[] de -1 vers 0 à -1
 			Nmb[step+1] = Nmb[step]
 
 			Nmb[step] = conteneur
+Afficher Nmb
