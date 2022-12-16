@@ -1,9 +1,3 @@
-"""
-Le but de cet exercice est de trier des tableaux en fonction de leur taille dans l'ordre croissant.
-Cette taille est défini par une variable min, augmentera pas à pas grâce à la variable step et s'arrêtera quand elle aura atteint ou dépassera la variable max.
-Le nombre de tableau est déterminé par la variable nbr, qui doit être aussi aléatoire.
-"""
-
 import random
 import numpy
 import statistics
