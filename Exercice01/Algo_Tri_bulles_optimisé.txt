@@ -14,4 +14,5 @@ Pour i variant de longueur Nmb[] de -1 vers 0 à -1
 
 	Si Interchangé = FAUX
 
-		Fin 
+		Fin
+Afficher Nmb
